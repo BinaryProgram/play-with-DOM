@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Play with DOM</title>
-</head>
-<body>
+    <!-- daisyUI and tailwind CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="ml-10 mt-10 space-y-10">
+    <h1 id="title" class="text-3xl">Let's play with DOM</h1>
+    <ul id="items" class="list mt-8">
+      <h3 class="text-3xl text-blue-300">First List</h3>
+      <li class="item text-xl">items-1</li>
+      <li class="item text-xl">items-2</li>
+      <li class="item text-xl">items-3</li>
+      <li class="item text-xl">items-4</li>
+      <li class="item text-xl">items-5</li>
+    </ul>
+    <ul id="items" class="list mt-8">
+      <h3 class="text-3xl text-blue-300">Second List</h3>
+      <li class="item text-xl">items one</li>
+      <li class="item text-xl">items two</li>
+      <li class="item text-xl">items three</li>
+      <li class="item text-xl">items four</li>
+    </ul>
+    <h2 class="text-2xl">Let's traverse the dom element</h2>
+    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum minima aspernatur impedit.</P>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptate earum atque.</P>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus autem laborum voluptates.</P>
+
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
