@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -13,6 +13,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="ml-10 mt-10 space-y-10">
+    <!-- <h1 id="title" class="text-3xl hidden">Let's play with DOM</h1> -->
     <h1 id="title" class="text-3xl">Let's play with DOM</h1>
     <ul id="items" class="list mt-8">
       <h3 class="text-3xl text-blue-300">First List</h3>
@@ -22,7 +23,7 @@
       <li class="item text-xl">items-4</li>
       <li class="item text-xl">items-5</li>
     </ul>
-    <ul id="items" class="list mt-8">
+    <ul id="items-2" class="list mt-8">
       <h3 class="text-3xl text-blue-300">Second List</h3>
       <li class="item text-xl">items one</li>
       <li class="item text-xl">items two</li>
@@ -30,10 +31,23 @@
       <li class="item text-xl">items four</li>
     </ul>
     <h2 class="text-2xl">Let's traverse the dom element</h2>
-    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum minima aspernatur impedit.</P>
-    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptate earum atque.</P>
-    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus autem laborum voluptates.</P>
-
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum minima
+      aspernatur impedit.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptate
+      earum atque.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus autem
+      laborum voluptates.
+    </p>
+    <div id="form" class="flex w-1/3 flex-col">
+      <textarea name="myText" id="text">hello</textarea>
+      <button id="button" class="btn">clear</button>
+    </div>
+    <a id="link" href="https://google.com" target="_blank">Visit</a>
     <script src="./script.js"></script>
   </body>
 </html>
